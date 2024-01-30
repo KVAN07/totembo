@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Bold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'FontAwesome';
+    src: url(../fonts/Webfonts/Webfonts/fa-light-300.ttf);
+    font-weight: 300;
+}
+.fal{
+    font-family: 'FontAwesome';
+    font-weight: 300;
+}
+.heart::before{
+    content: '\f004';
+    font-style: normal;
+}
+.shopping-cart::before{
+    content: '\f07a';
+    font-style: normal;
+}
+.user::before{
+    content: '\f007';
+    font-style: normal;
+}
+.search::before{
+    content: '\f002';
+    font-style: normal;
+}
+.heartt::before{
+    content: '\f004';
+    font-style: normal;
+}
+.shopping-cartt::before{
+    content: '\f07a';
+    font-style: normal;
+}
+.clock::before{
+    content: '\f017';
+    font-style: normal;
+}
